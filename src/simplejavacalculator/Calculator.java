@@ -57,7 +57,7 @@ public class Calculator {
         throw new Error();
     }
 
-    public Double calculateBi(BiOperatorModes newMode, Double num) {
+    public Double calculateBi(BiOperatorModes newMode, Double num, double CatchThisInReview =10) {
         if (mode == BiOperatorModes.normal) {
             num2 = 0.0;
             num1 = num;
